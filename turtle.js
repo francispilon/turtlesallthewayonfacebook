@@ -19,7 +19,7 @@ function sendTurtle(){
         fs.unlinkSync("./Turtle/" + files[index]);
     });
 
-    setTimeout(function() {}, 3600000);
+    setTimeout(function() {}, 3600000 * 6);
 }
 
 sendTurtle();
